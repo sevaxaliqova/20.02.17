@@ -1,0 +1,52 @@
+html,body{
+    margin: 0;
+    padding: 0;
+}
+.wrapper {
+    width: 960px;
+    margin: 0 auto;
+}
+.row,.row>div>img {
+    width: 100%;
+}
+.row>div,.row>div>img, {
+    height: auto;
+    z-index: 2;
+}
+.row>div {
+    float: left;
+    border: 1px solid grey;
+    width: calc((100% - 36px) / 3);
+    position: relative;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    
+}
+.row>div>h1 {
+    padding: 0 10%;
+}
+.row>div>.socialButtons{
+    background: lightgrey;
+    padding: 10px;
+    text-align: center;
+    border-top: 1.5px solid grey;
+}
+.row>div>.socialButtons>span {
+    text-align: center;
+    color: grey;
+    margin-right: 60px;
+}
+.row>div>.socialButtons>span:first-child {
+    margin-left: 0;
+}
+.row>div>.socialButtons>span:last-child {
+    margin-right: 0;
+}
+.dateTime {
+    background: lightblue;
+    position: absolute;
+    padding: 15px;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
